@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <img src="bootstrap/carouselpict/logoatas.jpg" class="mx-auto d-block" style="width:60%"> 
+    </div>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)">InfoGame</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <form class="d-flex ms-auto">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">cari</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid bg-black text-white text-center p-3">
+      <h1>>5 Best game dalam 4 kategori<</h1>
+      <p1>baik permainan offline maupun online akan kita bahas disini</p1>
+      </div>
+      
+      <div class="container p-5 text-center">
+        <h6>banyak game yang ditawarkan oleh para developer melalui play store atau appstrore. disini saya akan menginformasikan game yang seru dan layak dicoba menurut kategori game masing-masing,  Mari kita lihat game apa saja yang akan menjadi favorit tahun ini.</h6>
+      </div>
+    
+    <div class="container p-3 text-center">
+      <h4>berikut adalah 4 kategori game yang akan kita bahas :</h4>
+      <div class="row">
+        <div class="col-sm-3 p-3 bg-primary text-white">Battle Royale</div>
+        <div class="col-sm-3 p-3 bg-dark text-white">RPG</div>
+        <div class="col-sm-3 p-3 bg-primary text-white">Moba</div>
+        <div class="col-sm-3 p-3 bg-dark text-white">Advanture</div>
+      </div>
+    </div>
+
+    <div class="container mt-3">
+      <div class="alert alert-success alert-dismissible">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Success!</strong> This alert box could indicate a successful or positive action.
+      </div>
+    </div>
+
+    <div class="container mt-3 p-5">
+      <h2>Berikut penjelasan game secara singkat</h2>          
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Kategori</th>
+            <th>perangkat</th>
+            <th>keterangan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>battle royale</td>
+            <td>pc / android / ios</td>
+            <td>genre permainan video yang memadukan elemen bertahan hidup dengan pemenang orang terakhir yang bertahan. datang tanpa senjata, lalu mencari peralatan bertempur agar bisa bertahan hingga akhir dalam pertempuran</td>
+          </tr>
+          <tr>
+            <td>RPG</td>
+            <td>pc / android / ios</td>
+            <td>genre game dimana pemain mengontrol aksi dari karakter atau grup dalam sebuah dunia fiksi dalam video game. Artinya dalam game tersebut memiliki ruang lingkup sendiri, dengan karakter, setting, item, dan terminologi yang unik.</td>
+          </tr>
+          <tr>
+            <td>moba</td>
+            <td>pc / android / ios</td>
+            <td>MOBA adalah singkatan dari Multiplayer Online Battle Arena Yang artinya MOBA merupakan sebuah game multiplayer online yang bertema pertarungan di dalam arena.</td>
+          </tr>
+          <tr>
+            <td>Advanture</td>
+            <td>pc / android / ios</td>
+            <td>pemain mengasumsikan peran protagonis dalam cerita interaktif yang didorong oleh eksplorasi dan pemecahan teka-teki.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container mt-3 mb-3">
+      <h2>link untuk unduh by developer !</h2>                                          
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+          link unduh
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">steam</a></li>
+          <li><a class="dropdown-item" href="#">origin</a></li>
+          <li><a class="dropdown-item" href="#">zeppeto</a></li>
+          <li><a class="dropdown-item" href="#">garena</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="bootstrap/carouselpict/br.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Battle Royale</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="bootstrap/carouselpict/avt.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Andvantue</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="bootstrap/carouselpict/moba.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Moba</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="bootstrap/carouselpict/rpg.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>RPG</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev color-primary" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h6>untuk keterangan lebih lanjut dari 4 kategori game :</h6>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">>Battle Royale<</button>
+        <button type="button" class="btn btn-primary">>Advantur<</button>
+        <button type="button" class="btn btn-primary">>Moba<</button>
+        <button type="button" class="btn btn-primary">>RPG<</button>
+      </div>
+    </div>
+
+    <div class="container mt-3">              
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </div>
+
+    <div class="container-fluid bg-primary text-white text-center p-3">
+      <h7>>@mob.dims<</h7>
+      <h6>contact person : ....</h6>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
